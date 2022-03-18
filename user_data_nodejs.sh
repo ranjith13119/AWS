@@ -27,4 +27,4 @@ sudo chmod -R 755 .
 #install node module
 npm install
 # start the app
-MYSQL_HOST="" MYSQL_USER="admin" MYSQL_PASSWORD='"admin#123'" MYSQL_DATABASE='nodedb' node app.js > app.out.log 2> app.err.log < /dev/null &
+MYSQL_HOST="" MYSQL_USER="admin" MYSQL_PASSWORD='"admin#123'" MYSQL_DATABASE='nodedb' node server.js > app.out.log 2> app.err.log < /dev/null &
